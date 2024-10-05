@@ -1,4 +1,4 @@
-const page = () => {
+const example = () => {
     return(
         <div>
             testing page route;
@@ -6,4 +6,4 @@ const page = () => {
     )
 }
 
-export default page;
+export default example;
