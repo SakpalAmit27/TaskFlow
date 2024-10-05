@@ -11,6 +11,10 @@ body {
     text-wrap: balance;
   }
 }
+html,body,
+:root{
+  height:100%;
+}
 
 @layer base {
   :root {
