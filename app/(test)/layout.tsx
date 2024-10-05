@@ -1,9 +1,12 @@
-const TestLayout = () => {
+const TestLayout = ({
+    children,
+}:{
+    children:React.ReactNode;
+}) => {
     return(
 
-        <div>
-            this is test layout 
-            
+        <div className="bg-lime-400">
+            {children};
         </div>
     )
 }
