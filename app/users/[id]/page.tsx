@@ -1,9 +1,13 @@
 import React from 'react'
 
-const pageId = () => {
+const pageId = ({
+    params,
+}:{
+    params:{id:string}; 
+}) => {
   return (
     <div>
-      page for showing id 
+      id:{params.id};
     </div>
   )
 }
