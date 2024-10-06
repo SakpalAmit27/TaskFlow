@@ -1,5 +1,8 @@
 import { Medal } from 'lucide-react';
 import React from 'react'
+import { Button } from '@/components/ui/button';
+import Link from 'next/link';
+
 
 const marketingPage = () => {
   return (
@@ -19,6 +22,9 @@ const marketingPage = () => {
       <div className='text-sm md:text-xl text-neutral-400 mt-4 max-w-xs md:max-w-2xl text-center mx-auto '>
         Collaborarte, manage projects and reach new productivity peaks . From high risis to the home office , the way your team works is unique - accomplish it all with TaskFlow.
       </div>
+      <Button className='mt-6' size="lg" asChild> 
+        <Link href="/sign-up"> Get TaskFlow for free</Link>
+      </Button>
 
     </div>
   )
